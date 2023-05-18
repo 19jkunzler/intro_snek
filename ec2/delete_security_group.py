@@ -7,3 +7,5 @@ response = ec2.delete_security_group(
 )
 
 print(response)
+
+# make sure the securtiy group is not attached to any instances otherwise it will not delete
